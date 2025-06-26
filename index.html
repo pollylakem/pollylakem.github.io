@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPC ENTERPRISES, INC. - Mobile App Development Experts</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-attachment: fixed;
+            color: white;
+        }
+        .section-bg {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+        }
+        .card {
+            background: rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex items-center">
+                <span class="text-2xl font-bold">IPC</span>
+                <span class="ml-2 text-xl">ENTERPRISES, INC.</span>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+                    <li><a href="#about" class="hover:text-gray-200">About</a></li>
+                    <li><a href="#services" class="hover:text-gray-200">Services</a></li>
+                    <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="py-20 text-center">
+        <div class="container mx-auto px-4 section-bg p-12">
+            <h1 class="text-4xl font-bold mb-4">Mobile App Development Experts</h1>
+            <p class="text-xl mb-8">Specializing in innovative mobile app development, transforming creative ideas into premium mobile experiences</p>
+            <div class="space-x-4">
+                <a href="#contact" class="bg-white text-purple-600 px-6 py-3 rounded-full hover:bg-gray-100">Start Collaboration</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-16">
+        <div class="container mx-auto px-4 text-center section-bg p-12">
+            <h2 class="text-3xl font-bold mb-8">About IPC ENTERPRISES</h2>
+            <p class="text-xl max-w-2xl mx-auto">We are a passionate mobile app development team dedicated to providing innovative, stable, and user-friendly mobile solutions for our clients</p>
+            
+            <div class="flex justify-center space-x-8 mt-12">
+                <div class="text-center card p-6">
+                    <div class="text-4xl mb-4">🚀</div>
+                    <h3 class="font-bold">Innovation Driven</h3>
+                    <p>Utilizing cutting-edge technology and innovative thinking</p>
+                </div>
+                <div class="text-center card p-6">
+                    <div class="text-4xl mb-4">🛡️</div>
+                    <h3 class="font-bold">Rock Solid</h3>
+                    <p>Stone-solid technical architecture ensuring stable performance</p>
+                </div>
+                <div class="text-center card p-6">
+                    <div class="text-4xl mb-4">❤️</div>
+                    <h3 class="font-bold">User-Centric</h3>
+                    <p>Creating intuitive and easy-to-use mobile app interfaces</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-16">
+        <div class="container mx-auto px-4 section-bg p-12">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">📱</div>
+                    <h3 class="font-bold mb-2">iOS App Development</h3>
+                    <p>Native iOS app development, perfectly integrated with Apple ecosystem</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h3 class="font-bold mb-2">Android App Development</h3>
+                    <p>Native Android development, covering a wide range of devices</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <div class="text-4xl mb-4">🔄</div>
+                    <h3 class="font-bold mb-2">Cross-Platform Development</h3>
+                    <p>React Native/Flutter cross-platform solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4 section-bg p-12">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+            <p class="text-center mb-12">Ready to start your mobile app project? Let's create amazing mobile apps together</p>
+            
+            <div class="max-w-md mx-auto card p-8">
+                <form action="mailto:pollylakem334@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" placeholder="Full Name" class="w-full p-3 mb-4 bg-white bg-opacity-20 rounded text-white placeholder-white" required>
+                    <input type="email" placeholder="Email Address" class="w-full p-3 mb-4 bg-white bg-opacity-20 rounded text-white placeholder-white" required>
+                    <select class="w-full p-3 mb-4 bg-white bg-opacity-20 rounded text-white">
+                        <option>iOS App Development</option>
+                        <option>Android App Development</option>
+                        <option>Cross-Platform App</option>
+                        <option>Game Development</option>
+                        <option>Other</option>
+                    </select>
+                    <textarea placeholder="Project Description" class="w-full p-3 mb-4 bg-white bg-opacity-20 rounded text-white placeholder-white" rows="4" required></textarea>
+                    <button class="w-full bg-white text-purple-600 p-3 rounded hover:bg-gray-100">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="mb-4">
+                <span class="text-2xl font-bold">IPC</span>
+                <span class="ml-2 text-xl">ENTERPRISES, INC.</span>
+            </div>
+            <p class="mb-4">Professional mobile app development team dedicated to creating exceptional mobile solutions.</p>
+            <div class="flex justify-center space-x-4 mb-4">
+                <a href="mailto:pollylakem334@gmail.com" class="hover:text-gray-200">📧 Email</a>
+                <a href="tel:+639647251968" class="hover:text-gray-200">📱 Call</a>
+            </div>
+            <address class="not-italic mb-4">
+                99-344 Kulawea Pl<br>
+                Aiea - 96701-3601<br>
+                United States (US)
+            </address>
+            <p>© 2024 IPC ENTERPRISES, INC. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
